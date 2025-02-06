@@ -325,7 +325,7 @@ class CommandHandler extends EventEmitter {
 
   invalidFlagError = "Invalid flag `$invalidFlag`. It doesn't match any options on this command.\n`$previousCmd $invalidFlag`";
 
-  constructor(client, prefix="*") {
+  constructor(client, prefix="!") {
     super();
 
     this.client = client;
